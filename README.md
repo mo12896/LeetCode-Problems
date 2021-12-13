@@ -1,1 +1,3 @@
 # LeetCode-Problems
+
+The idea of this repo is to collect my daily solutions of LeetCode problems for my own learning purposes. Besides the question header, each python file consists of a link to both to the LeetCode question as well as a video solution, the solution-body and a test-suite. Since most of the solutions will be implemented in python, the files can be called from the Terminal. Example testcases are copied from LeetCode and can/should be modified for edge-case testing.
