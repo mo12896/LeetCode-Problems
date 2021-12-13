@@ -6,7 +6,7 @@
 class Solution:
     def generate(self, numRows):
         if numRows < 1 or numRows > 30:
-            return 
+            return "Out of bounds! Please select number between 1-30!"
         if numRows == 1:
             return [[1]]
         if numRows == 2:
@@ -28,6 +28,6 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     # testcase 1
-    input = 10
+    input = 3
     output = solution.generate(input)
     print(output)
