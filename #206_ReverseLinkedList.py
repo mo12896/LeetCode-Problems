@@ -1,4 +1,4 @@
-# 206. Reverse Linked List
+# 206. Reverse Linked List (Easy)
 # https://leetcode.com/problems/reverse-linked-list/submissions/
 # https://www.youtube.com/watch?v=NCilGMhdYPY&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=4
 
@@ -10,7 +10,7 @@
 #         self.next = next
 
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList(self, head):
         prev = None
         while head:
             current = head

@@ -4,16 +4,16 @@
 
 
 class Solution:
-    def containsDuplicate(self, nums):
+    def containsDuplicate(self, nums): # O(N) time, O(1) space
         seen_nums = {}
 
         if len(nums) < 1 or len(nums) > 100000:
             return "Array length is out of bounds!"
 
-        for i in range(len(nums)):
+        for i in range(len(nums)): # O(N) time, O(1) space
             if nums[i] < -10e8 or nums[i] > 10e8:
                 return "Array-element is out of bounds!"
-            if str(nums[i]) in seen_nums:
+            if str(nums[i]) in seen_nums: # O(1) time, O(1) space
                 return True
             seen_nums[str(nums[i])] = 1
         return False
