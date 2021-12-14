@@ -4,16 +4,16 @@
 
 
 class Solution:
-    def numIslands(self, grid):
+    def numIslands(self, grid): # O(N²) time, O(N) space
 
         counter = 0
 
-        for i in range(len(grid)):
-            for j in range(len(grid[i])):
+        for i in range(len(grid)): # O(N) time, O(1) space
+            for j in range(len(grid[i])): # O(N) time, O(1) space
                 if grid[i][j] == "1":
                     counter += 1
                     # recursively call depth first search
-                    self.call_dfs(grid, i, j)
+                    self.call_dfs(grid, i, j) # O(N) time, O(N) space
         return counter
 
     def call_dfs(self, grid, i, j):

@@ -10,9 +10,9 @@
 #         self.next = next
 
 class Solution:
-    def reverseList(self, head):
+    def reverseList(self, head): # O(N) time, O(1) space
         prev = None
-        while head:
+        while head: # O(N) time, O(1) space
             current = head
             head = head.next
             current.next = prev
