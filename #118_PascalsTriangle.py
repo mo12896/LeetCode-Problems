@@ -1,4 +1,4 @@
-#118. Pascal's Triangle (Easy)
+# 118. Pascal's Triangle (Easy)
 # https://leetcode.com/problems/pascals-triangle/
 # https://www.youtube.com/watch?v=icoql2WKmbA&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=2
 
