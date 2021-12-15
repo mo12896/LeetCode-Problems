@@ -1,4 +1,4 @@
-# 167. Two Sum II - Input Array Is Sorted
+# 167. Two Sum II - Input Array Is Sorted (Easy)
 # https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 # https://www.youtube.com/watch?v=sAQT4ZrUfWo&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=5
 
@@ -16,7 +16,6 @@ class Solution: # O(N) time, O(1) space
                 pointer2 -= 1
             else:
                 return [pointer1+1, pointer2+1]
-
 
 
 if __name__ == "__main__":
