@@ -10,7 +10,7 @@
 #         self.next = next
 
 class Solution: # O(N) time, O(1) space
-    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+    def isPalindrome(self, head):
         if head is None:
             return True
         
