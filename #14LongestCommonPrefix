@@ -1,3 +1,4 @@
+# Use sorting to reduce the complexity of the problem
 from typing import List
 
 

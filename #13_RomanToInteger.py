@@ -1,3 +1,5 @@
+# Use a shifting window approach in combination with an expanded hashmap
+# to solve this problem
 class Solution:
     def romanToInt(self, s: str) -> int:
         if len(s) < 1 or len(s) > 15:
@@ -35,6 +37,7 @@ class Solution:
         return current_sum
 
     # Even better solution:
+    # Use the arithemic property of roman numerals to solve this problem
     def romanToInt2(self, s: str) -> int:
         if len(s) < 1 or len(s) > 15:
             return 0
